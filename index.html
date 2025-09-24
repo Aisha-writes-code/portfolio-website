@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <h1>Welcome To My Portfolio</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Home Section-->
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Hi, I'm Aisha! Welcome to my portfolio website built with HTML.</p>
+        </section>
+        <!--About Section-->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am learning web development step by step. This page shows my skill so far!</p>
+        <!--Video-->
+        <h3>My Introduction Video</h3>
+        <video 
+            width="320" height="240" controls 
+            src="intro.mp4" type="video/mp4" >Your browser does not support the video tag
+        </video>
+        <!--Audio-->
+        <h3>My Introduction Audio</h3>
+        <audio 
+            src="audio.mp3" type="audio/mpeg" controls>
+            Your browser does not support the audio element.
+        </audio>
+        </section>
+        <!--Work Section-->
+        <section id="work">
+            <h2>My Work</h2>
+            <ul>
+                <li>
+                    Project 1: Restaurant Menu Website
+                </li>
+                <li>
+                    project 2: Portfolio Website
+                </li>
+            </ul>
+        </section>
+        <!--Resume Section-->
+        <section id="resume">
+            <h2>My Resume</h2>
+            <table border="1">
+                <tr>
+                    <th>Skills</th>
+                    <th>Experience</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>2 weeks learning</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>2 weeks learning</td>
+                </tr>
+            </table>
+        </section>
+        <!--Contact Section-->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Name field"> <br>
+                <input type="email" placeholder="Email field"> <br>
+                <input type="message" placeholder="Message textarea"> <br>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+    <aside>
+        <h3>Related link</h3>
+        <a href="https://github.com/Aisha-writes-code">My Github link</a>
+    </aside>
+    <footer>
+        <p>&copy; 2025 Aisha Usman. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
